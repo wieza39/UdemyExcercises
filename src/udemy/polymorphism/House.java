@@ -4,7 +4,8 @@ public class House extends Flat{
     protected float parcelSize;
     public House(String city, String street, float parcelSize){
         super(city, street);
-        this.parcelSize = parcelSize;
+        this.setParcelSize(parcelSize);
+ //       this.parcelSize = parcelSize;
     }
 
     public float getParcelSize() {
