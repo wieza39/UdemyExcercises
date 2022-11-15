@@ -1,4 +1,4 @@
-package udemy.collections.arraylist.arrayList;
+package udemy.collections.arraylist;
 
 import java.util.ArrayList;
 

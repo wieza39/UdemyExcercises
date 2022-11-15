@@ -1,6 +1,4 @@
-package udemy.collections.arraylist.arrayList;
-
-import java.util.ArrayList;
+package udemy.collections.arraylist;
 
 public class Main {
     public static void main(String[] args) {

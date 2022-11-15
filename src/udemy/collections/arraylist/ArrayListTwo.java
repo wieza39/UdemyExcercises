@@ -1,4 +1,4 @@
-package udemy.collections.arraylist.arrayList;
+package udemy.collections.arraylist;
 
 import javax.swing.text.html.HTMLDocument;
 import java.util.ArrayList;

@@ -5,18 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6363f6a-ba54-4a5f-b694-6c9f8f0f8cc2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/udemy/collections/arraylist/arrayList/ArrayListOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/udemy/collections/arraylist/arrayList/ArrayListTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/udemy/collections/arraylist/arrayList/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/udemy/collections/arraylist/linkedList/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/udemy/exceptions/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/udemy/exceptions/OwnExecption.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/udemy/interfaces/Browser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/udemy/interfaces/Chrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/udemy/interfaces/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/udemy/collections/hashMap/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/udemy/collections/hashMap/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/udemy/collections/hashSet/one/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/udemy/collections/hashSet/one/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/udemy/collections/hashSet/two/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/udemy/collections/hashSet/two/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/udemy/collections/linkedList/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/udemy/collections/linkedList/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/udemy/collections/treeSet/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/udemy/polymorphism/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/udemy/polymorphism/House.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/udemy/polymorphism/Residence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/udemy/polymorphism/Residence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/udemy/collections/arraylist/arrayList/ArrayListOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/udemy/collections/arraylist/ArrayListOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/udemy/collections/arraylist/arrayList/ArrayListTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/udemy/collections/arraylist/ArrayListTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/udemy/collections/arraylist/arrayList/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/udemy/collections/arraylist/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/udemy/collections/arraylist/linkedList/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +57,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main (5)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="udemy.exceptions.Main" />
       <module name="udemy" />
@@ -69,12 +71,64 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="udemy.interfaces.Main" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="udemy.collections.arraylist.linkedList.Main" />
       <module name="udemy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="udemy.interfaces.*" />
+          <option name="PATTERN" value="udemy.collections.arraylist.linkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="udemy.collections.hashSet.two.Main" />
+      <module name="udemy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="udemy.collections.hashSet.two.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="udemy.collections.treeSet.Main" />
+      <module name="udemy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="udemy.collections.treeSet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="udemy.collections.hashMap.Main" />
+      <module name="udemy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="udemy.collections.hashMap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="udemy.collections.hashSet.one.Main" />
+      <module name="udemy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="udemy.collections.hashSet.one.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,9 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (5)" />
+        <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -114,6 +170,7 @@
       <workItem from="1667596999857" duration="2219000" />
       <workItem from="1667678037465" duration="2131000" />
       <workItem from="1667759564349" duration="2241000" />
+      <workItem from="1668518693660" duration="5974000" />
     </task>
     <servers />
   </component>
