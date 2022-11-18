@@ -1,4 +1,4 @@
-package udemy.collections.hashMap;
+package udemy.collections.hashMap.one;
 
 public class Product {
     private int price;

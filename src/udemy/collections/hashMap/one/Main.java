@@ -1,4 +1,4 @@
-package udemy.collections.hashMap;
+package udemy.collections.hashMap.one;
 
 import java.util.HashMap;
 import java.util.Iterator;
