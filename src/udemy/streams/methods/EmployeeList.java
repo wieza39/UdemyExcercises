@@ -1,9 +1,9 @@
-package udemy.streams;
+package udemy.streams.methods;
 
-import java.awt.*;
 import java.util.*;
 import java.util.List;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class EmployeeList {
     public static void main(String[] args) {
@@ -51,6 +51,29 @@ public class EmployeeList {
         System.out.println(salaries);
 
         System.out.println("\nmin() & max()");
-        Employee minSalary
+        Employee minSalary = employees.stream()
+                .min((e1, e2) -> e1.getSalary() > e2.getSalary() ? 1 : -1)
+                .get();
+        System.out.println("Min: ");
+        System.out.println(minSalary);
+
+        Employee maxSalary = employees.stream()
+                .max((e1, e2) -> e1.getSalary() > e2.getSalary() ? 1 : -1)
+                .get();
+        System.out.println("Max: ");
+        System.out.println(maxSalary);
+
+        List<Integer> limit = uniqueNumbers.stream().limit(3).collect(Collectors.toList());
+        System.out.println("\nlimit():");
+        System.out.println(limit);
+
+        long count = uniqueNumbers.stream()
+                .filter( e -> e > 2 && e < 7).count();
+        System.out.println("count(): ");
+        System.out.println(count);
+
+        System.out.println("iterate()");
+        Stream.iterate(1, n -> n + 1).limit(5).forEach(s -> System.out.println(s));
+
     }
 }

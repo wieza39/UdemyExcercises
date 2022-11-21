@@ -1,4 +1,4 @@
-package udemy.streams;
+package udemy.streams.methods;
 
 public class Employee {
 

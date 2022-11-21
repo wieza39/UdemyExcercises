@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6363f6a-ba54-4a5f-b694-6c9f8f0f8cc2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/udemy/collections/hashMap/two/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/udemy/collections/hashMap/two/hashMapExercise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/udemy/collections/priorityQueue/TaskPriority.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/udemy/collections/priorityQueue/Tasks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/udemy/streams/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/udemy/streams/EmployeeList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/udemy/collections/hashMap/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/udemy/collections/hashMap/one/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/udemy/collections/hashMap/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/udemy/collections/hashMap/one/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/udemy/streams/EmployeeList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/udemy/streams/EmployeeList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,11 +47,11 @@
   </component>
   <component name="RunManager" selected="Application.EmployeeList">
     <configuration name="EmployeeList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="udemy.streams.EmployeeList" />
+      <option name="MAIN_CLASS_NAME" value="udemy.streams.methods.EmployeeList" />
       <module name="udemy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="udemy.streams.*" />
+          <option name="PATTERN" value="udemy.streams.methods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,7 +158,7 @@
       <workItem from="1667596999857" duration="2219000" />
       <workItem from="1667678037465" duration="2131000" />
       <workItem from="1667759564349" duration="2241000" />
-      <workItem from="1668518693660" duration="17145000" />
+      <workItem from="1668518693660" duration="18663000" />
     </task>
     <servers />
   </component>
